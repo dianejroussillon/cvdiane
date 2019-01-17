@@ -4,20 +4,67 @@
 <body>
   <main>
     <div class="first_wrap">
-      <div class="first_wrap_left">
-        <div class="left_elements">Who am I</div>
-        <div class="left_elements">Skills</div>
-        <div class="left_elements">Background</div>
-        <div class="left_elements">Contact me</div>
+      <div class="first_wrap_top">
+        <div class="top_elements"><a href="#who_am_i">Who I am</a></div>
+        <div class="top_elements"><a href="#skills">Skills</a></div>
+        <div class="top_elements"><a href="#projects">Projects</a></div>
+        <div class="top_elements"><a href="#contact_me">Contact me</a></div>
       </div>
-      <div class="first_wrap_right">
-        <div class="main-sentence">My name is Diane Johnston-Roussillon, nice to meet you !</div>
+      <div class="first_wrap_middle">
+        <div class="main-sentence">My name is<span class="name">  <span class="colored">D</span>iane <span class="colored">J</span>ohnston- <span class="colored">R</span>oussillon  </span>, nice to meet you !</div>
+      </div>
+      <div class="first_wrap_bottom">
+        <div class="first_wrap_bottom_left">
+          <div id="scroll-down">scroll-drown</div>
+        </div>
+        <div class="first_wrap_bottom_right"></div>
       </div>
     </div>
-    <div class="second_wrap">Who am I</div>
-    <div class="third_wrap">Skills</div>
-    <div class="fourth_wrap">Background</div>
-    <div class="fifth_wrap">Contact me</div>
+    <div class="second_wrap" id="who_am_i">
+    <div class="second_wrap_content">Who am I ?</div>
+    <p class="second_wrap_content">
+      <br>
+      My name is Diane, I am 26 years old and I am a Fullstack Developper looking for opportunities in this area.<br>
+      During 3 years I have been working as Head of Supply for a company named Le Collectionist, a luxury travel brand<br>
+      that rents selected properties around the world with services & experiences.<br>
+      In need of new adventures, I recently did the 200th batch of Le Wagon in Paris, a Bootcamp to learn how to be a developper<br>
+      in 9 weeks - focused on Ruby on Rails - and I would like to practice what I learnt in order to<br>
+      make further progress in this field.</p>
+    </div>
+    <div class="third_wrap">
+      <div class="third_wrap_title" id="skills">Skills</div>
+      <div class="third_wrap_content">Ruby on Rails</div>
+      <div class="third_wrap_content">CSS</div>
+      <div class="third_wrap_content">Html</div>
+      <div class="third_wrap_content">Javascript</div>
+    </div>
+    <div class="fourth_wrap" id="projects">Projects</div>
+    <div class="fifth_wrap">
+      <div class="fifth_wrap_title" id="contact_me">Contact me</div>
+      <div class="fifth_wrap_content">+33 6 98 86 19 92</div>
+      <div class="fifth_wrap_content">diane.jroussillon@gmail.com</div>
+      <div class="fifth_wrap_icons">
+        <div class="fifth_wrap_content"><a href="https://www.facebook.com/diane.johnston.12"><i class="fa fa-facebook"></i></a></div>
+        <div class="fifth_wrap_content"><a href="https://www.linkedin.com/in/diane-johnston-roussillon-144208a9/"><i class="fa fa-linkedin"></i></a></div>
+        <div class="fifth_wrap_content"><a href="https://github.com/dianejroussillon"><i class="fa fa-github"></i></a></div>
+      </div>
+    </div>
   </main>
+  <script>
+    $(function() {
+        $("a[href*='#']:not([href='#'])").click(function() {
+            if (
+                location.hostname == this.hostname
+                && this.pathname.replace(/^\//,"") == location.pathname.replace(/^\//,"")
+            ) {
+                var anchor = $(this.hash);
+                anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
+                if ( anchor.length ) {
+                    $("html, body").animate( { scrollTop: anchor.offset().top }, 900);
+                }
+            }
+        });
+    });
+    </script>
 </body>
 </html>
