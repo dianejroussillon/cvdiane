@@ -73,12 +73,28 @@ a {
 }
 
 .second_wrap {
+  margin: 15px 0px 10px 0px;
   height: 50vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
+  transition: box-shadow 0.3s ease-in-out;
+  .second_wrap_total:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  p {
+    line-height: 28px;
+  }
+}
+
+.second_wrap_total {
+  width: 80%;
+  padding: 20px 0px;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+
 }
 
 .second_wrap_content {
@@ -86,31 +102,38 @@ a {
   text-align: center;
   margin: 0px;
   height: -webkit-fit-content;
+  transition: all 0.5s cubic-bezier(0.12, 0.34, 1, 1);
 }
 
 .third_wrap {
+  margin: 10px 0px;
   height: 50vh;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-}
-
-.third_wrap_title {
-  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .third_wrap_content {
-  width: 50%;
+  width: 20%;
+}
+
+.skills_languages {
+  font-size: 30px;
+  margin-right: 10px;
 }
 
 
-.fourth_wrap {
-  height: 10vh;
-  width: 100%;
-  text-align: center;
-}
+// .fourth_wrap {
+//   margin: 10px 0px;
+//   height: 10vh;
+//   width: 100%;
+//   text-align: center;
+// }
 
 .fifth_wrap {
+  margin: 10px 0px;
   height: 30vh;
   width: 100%;
   text-align: center;
@@ -125,6 +148,9 @@ a {
 
 .fifth_wrap_content {
   margin: 10px;
+  .fa {
+    font-size: 30px;
+  }
 }
 
 .colored {
