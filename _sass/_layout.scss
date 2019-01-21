@@ -4,7 +4,15 @@
          url('gravityhandwritten-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("css/fonts/Harabara.eot");
+  src:
+  url("css/fonts/Harabara.woff") format("woff"),
+  url("css/fonts/Harabara.otf") format("opentype"),
+  url("css/fonts/Harabara.svg#filename") format("svg");
 }
 
 a {
