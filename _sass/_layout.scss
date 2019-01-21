@@ -1,6 +1,10 @@
 @font-face {
-  font-family: 'Gravity handwritten';
-  src: url('/Users/dianejohnston/code/dianejroussillon/diane-cv/cvdiane/GravityHandwritten.ttf');
+    font-family: 'gravity_handwrittenregular';
+    src: url('gravityhandwritten-webfont.woff2') format('woff2'),
+         url('gravityhandwritten-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 a {
