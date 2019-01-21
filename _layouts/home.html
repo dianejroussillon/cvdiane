@@ -10,7 +10,7 @@
         <div class="top_elements"><a href="#contact_me">Contact me</a></div>
       </div>
       <div class="first_wrap_middle">
-        <div class="main-sentence">My name is<span class="name">  <span class="colored">D</span>iane <span class="colored">J</span>ohnston <span class="colored">R</span>oussillon  </span>, nice to meet you !</div>
+        <div class="main-sentence"><span class="cut-sentence">My name is</span><span class="name">  <span class="colored">D</span>iane <span class="colored">J</span>ohnston <span class="colored">R</span>oussillon  </span><span class="cut-sentence">, nice to meet you !</span></div>
       </div>
       <div class="first_wrap_bottom">
         <div class="first_wrap_bottom_left">
@@ -26,7 +26,7 @@
           <br>
           My name is Diane, I am 26 years old and I am a Fullstack Developper looking for opportunities in this area.<br>
           During 3 years I have been working as Head of Supply for Le Collectionist, a luxury travel brand<br>
-          that rents selected properties around the world with services & experiences.<br>
+          that rents selected properties around the world with services & experiences.<br><br>
           In need of new adventures, I recently did the 200th batch of Le Wagon in Paris, a Bootcamp to learn how to be a developper<br>
           in 9 weeks - focused on Ruby on Rails - and I would like to practice what I learnt in order to<br>
           make further progress in this field.</p>
@@ -65,6 +65,10 @@
                 }
             }
         });
+    });
+
+    $(window).scroll(function(){
+      $(".first_wrap_bottom_left").css("opacity", 1 - $(window).scrollTop() / 250);
     });
     </script>
 </body>
