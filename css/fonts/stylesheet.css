@@ -4,8 +4,12 @@
 
 @font-face {
     font-family: 'gravity_handwrittenregular';
-    src: url('gravityhandwritten-webfont.woff2') format('woff2'),
-         url('gravityhandwritten-webfont.woff') format('woff');
+    src: url('gravity_handwritten-webfont.eot');
+    src: url('gravity_handwritten-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gravity_handwritten-webfont.woff2') format('woff2'),
+         url('gravity_handwritten-webfont.woff') format('woff'),
+         url('gravity_handwritten-webfont.ttf') format('truetype'),
+         url('gravity_handwritten-webfont.svg#gravity_handwrittenregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
