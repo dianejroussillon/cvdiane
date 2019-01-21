@@ -1,18 +1,9 @@
 @font-face {
-    font-family: 'gravity_handwrittenregular';
+    font-family: 'Gravity Handwritten';
     src: url('gravityhandwritten-webfont.woff2') format('woff2'),
          url('gravityhandwritten-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
-@font-face {
-  font-family: "Harabara Bold";
-  src: url("css/fonts/Harabara.eot");
-  src:
-  url("css/fonts/Harabara.woff") format("woff"),
-  url("css/fonts/Harabara.otf") format("opentype"),
-  url("css/fonts/Harabara.svg#filename") format("svg");
 }
 
 a {
@@ -43,7 +34,7 @@ a {
 }
 
 .name {
-  font-family: 'Gravity handwritten';
+  font-family: 'Gravity Handwritten';
   font-size: 70px;
 }
 
