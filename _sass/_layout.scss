@@ -1,3 +1,4 @@
+
 a {
   text-decoration: none;
   color: white !important;
@@ -25,10 +26,10 @@ a {
   padding: 20px;
 }
 
-.name {
-  font-family: 'Gravity Handwritten';
-  font-size: 70px;
-}
+// .name {
+//   font-family: 'Gravity Handwritten';
+//   font-size: 70px;
+// }
 
 
 .first_wrap_middle {
@@ -192,6 +193,21 @@ a {
   }
 }
 
-.colored {
-  color: rgb(231, 200, 217);
+.main-sentence {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
+
+img {
+  width: 50%;
+  min-width: 370px;
+}
+
+.cut-sentence {
+  padding-bottom: 20px;
+}
+
+// .colored {
+//   color: rgb(231, 200, 217);
+// }
