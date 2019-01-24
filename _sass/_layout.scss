@@ -73,7 +73,7 @@ a {
 
 .second_wrap {
   margin: 15px 0px 10px 0px;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -90,7 +90,7 @@ a {
 
 .second_wrap_total {
   width: 80%;
-  padding: 20px 0px;
+  padding: 20px 20px;
   transition: box-shadow 0.3s ease-in-out;
   box-shadow: 0 1px 2px rgba(109,109,109,0.15);
 
@@ -106,7 +106,7 @@ a {
 
 .third_wrap {
   margin: 10px 0px;
-  height: 70vh;
+  height: 80vh;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -192,7 +192,7 @@ a {
 }
 
 img {
-  width: 50%;
+  width: 70%;
   min-width: 330px;
   max-width: 400px;
 }
