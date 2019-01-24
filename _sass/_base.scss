@@ -20,39 +20,40 @@ $header:  #1D1425;
 
 body {
   // background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  // background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   // background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+// background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+//  background-blend-mode: multiply,multiply;
+  // background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
   // background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
   // background-image: linear-gradient(to right, #434343 0%, black 100%);
   // background-image: linear-gradient(to left, #0250c5 0%, #d43f8d 100%);
-  background: linear-gradient(to right, #434343 0%, black 100%);
+// background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+  // background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+  // background: linear-gradient(178deg, #cbc2f2, #f4c4c0);
+ background-image: linear-gradient(to top, rgba(219, 220, 215, 0.2) 0%, rgba(221, 220, 215, 0.2) 24%, rgba(226, 201, 204, 0.2) 30%, rgba(231, 98, 125, 0.2) 46%, rgba(184, 35, 90, 0.2) 59%, rgba(128, 19, 87, 0.2) 71%, rgba(61, 22, 53, 0.2) 84%, rgba(28, 26, 39, 0.2) 100%);
   background-size: 400% 400%;
 
-  -webkit-animation: AnimationName 14s ease infinite;
-  -moz-animation: AnimationName 14s ease infinite;
-  -o-animation: AnimationName 18s ease infinite;
-  animation: AnimationName 14s ease infinite;
+  -webkit-animation: AnimationName 12s ease infinite;
+  -moz-animation: AnimationName 12s ease infinite;
+  animation: AnimationName 12s ease infinite;
 
   @-webkit-keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
+      0%{background-position:53% 0%}
+      50%{background-position:48% 100%}
+      100%{background-position:53% 0%}
   }
   @-moz-keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
-  }
-  @-o-keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
+      0%{background-position:53% 0%}
+      50%{background-position:48% 100%}
+      100%{background-position:53% 0%}
   }
   @keyframes AnimationName {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
+      0%{background-position:53% 0%}
+      50%{background-position:48% 100%}
+      100%{background-position:53% 0%}
   }
-  color: white;
+  color: rgb(109, 109, 109);
   font-family: $font-style;
   font-weight: lighter;
   font-size: 14px;
